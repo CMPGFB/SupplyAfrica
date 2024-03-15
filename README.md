@@ -4,7 +4,7 @@ SupplyAfrica is a Clarity smart contract cultivated by Christopher Perceptions a
 
 It's designed to facilitate the tracking and management of items across Africa. It allows companies to register items with an initial status, update the status of owned items, and retrieve item information based on item IDs. SupplyAfrica aims to support mass adoption of decentralized systems within supply chain management.
 
-# Smart Contracts
+# Functions
 
 - Item Registration: Register items with a unique ID and an initial status.
 
