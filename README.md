@@ -46,14 +46,11 @@ clarinet deploy --contract supplyafrica.clar --network [testnet|mainnet]
 
 # Usage
 
-Registering an Item
-Call the register-item function with the desired initial status of the item. The function returns a unique item ID.
+Registering an Item: Call the register-item function with the desired initial status of the item. The function returns a unique item ID.
 
-Updating an Item's Status
-Call the update-item-status function with the item's ID and the new status. Note: Only the item's owner can update its status.
+Updating an Item's Status: Call the update-item-status function with the item's ID and the new status. Note: Only the item's owner can update its status.
 
-Retrieving Item Information
-Call the get-item-information function with the item's ID to retrieve its current status and owner.
+Retrieving Item Information: Call the get-item-information function with the item's ID to retrieve its current status and owner.
 
 # Contributing
 
