@@ -1,18 +1,16 @@
 # SupplyAfrica
 
-SupplyAfrica is a Clarity smart contract cultivated by Christopher Perceptions and presented at W3Africa 2024 as a decentralized framework for supply chain management. 
+SupplyAfrica is a Clarity smart contract cultivated by Christopher Perceptions and presented at W3Africa 2024 as a decentralized framework for supply chain management for Africa. 
 
-It's designed to facilitate the tracking and management of items across Africa. It allows companies to register items, update their statuses, and maintain a history of these statuses over time. Developed with transparency, efficiency, and scalability in mind, SupplyAfrica aims to support mass adoption of decentralized systems within supply chain management applications.
+It's designed to facilitate the tracking and management of items across Africa. It allows companies to register items with an initial status, update the status of owned items, and retrieve item information based on item IDs. SupplyAfrica aims to support mass adoption of decentralized systems within supply chain management.
 
 # Smart Contracts
 
-- Item Registration: Companies can register items, assigning them a unique ID and initial status.
+- Item Registration: Register items with a unique ID and an initial status.
 
-- Status Updates: Item owners can update the status of their items, with each update being recorded in the item's history.
+- Status Updates: Update the status of an item. Only the item's owner can perform this action.
 
-- History Tracking: Each item has a history of status updates, allowing for traceability and accountability.
-
-- Access Control: Only the item's registered owner can update its status, ensuring security and integrity.
+- Item Information Retrieval: Retrieve the owner and current status of an item by its ID.
 
 # Requirements
 
@@ -49,13 +47,13 @@ clarinet deploy --contract supplyafrica.clar --network [testnet|mainnet]
 # Usage
 
 Registering an Item
-Call the register-item function with the company's principal and the initial status of the item.
+Call the register-item function with the desired initial status of the item. The function returns a unique item ID.
 
-Updating Item Status
-Call the update-item-status function with the item's ID and the new status.
+Updating an Item's Status
+Call the update-item-status function with the item's ID and the new status. Note: Only the item's owner can update its status.
 
 Retrieving Item Information
-Call the get-item-information function with the item's ID to retrieve its current status and history.
+Call the get-item-information function with the item's ID to retrieve its current status and owner.
 
 # Contributing
 
