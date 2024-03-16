@@ -6,9 +6,9 @@ It's designed to facilitate the tracking and management of items across Africa. 
 
 SupplyAfrica aims to support mass adoption of decentralized systems within supply chain management.
 
-# Deployment 
+# Explorer Link 
 
-Explorer Link: https://explorer.hiro.so/txid/SP2HJVJQS0TRBTQ1WAWWN9H9W2HKGDZ7H5EZCEAQC.supplyafrica?chain=mainnet
+Deployed on Mainnet as of March 15, 2024: https://explorer.hiro.so/txid/SP2HJVJQS0TRBTQ1WAWWN9H9W2HKGDZ7H5EZCEAQC.supplyafrica?chain=mainnet
 
 # Functions
 
