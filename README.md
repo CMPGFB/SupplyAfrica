@@ -2,7 +2,13 @@
 
 SupplyAfrica is a Clarity smart contract cultivated by Christopher Perceptions and presented at W3Africa 2024 as a decentralized framework for supply chain management for Africa. 
 
-It's designed to facilitate the tracking and management of items across Africa. It allows companies to register items with an initial status, update the status of owned items, and retrieve item information based on item IDs. SupplyAfrica aims to support mass adoption of decentralized systems within supply chain management.
+It's designed to facilitate the tracking and management of items across Africa. It allows companies to register items with an initial status, update the status of owned items, and retrieve item information based on item IDs. 
+
+SupplyAfrica aims to support mass adoption of decentralized systems within supply chain management.
+
+# Deployment 
+
+Explorer Link: https://explorer.hiro.so/txid/SP2HJVJQS0TRBTQ1WAWWN9H9W2HKGDZ7H5EZCEAQC.supplyafrica?chain=mainnet
 
 # Functions
 
